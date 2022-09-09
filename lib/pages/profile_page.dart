@@ -102,7 +102,7 @@ class _ProfilePageState extends State<ProfilePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-           const Icon(Icons.account_circle,size: 200,),
+           const Icon(Icons.account_circle,size: 200,color: Colors.grey,),
            const SizedBox(height: 15,),
            Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
